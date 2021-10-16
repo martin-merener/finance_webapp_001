@@ -11,7 +11,7 @@ st.write("""
 
 """)
 
-st.sidebar.header("Enter symbol")
+#st.sidebar.header("Enter symbol")
 
 
 #tickerSymbol = 'GOOGL'
