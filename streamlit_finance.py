@@ -14,19 +14,20 @@ st.write("""
 
 st.sidebar.header("Enter symbol")
 
-tickerSymbol = 'GOOGL'
-symbol = st.sidebar.text_area("", tickerSymbol)
 
-st.sidebar.header('Enter dates')
-
-today = datetime.date.today()
-yesterday = today - datetime.timedelta(days=1)
-ayearago = yesterday - datetime.timedelta(days=365)
-start_date = st.sidebar.date_input('Start date', ayearago)
-end_date = st.sidebar.date_input('End date', yesterday)
-
-
-st.write("""### Current symbol:
+#tickerSymbol = 'GOOGL'
+#symbol = st.sidebar.text_area("", tickerSymbol)
+#
+#st.sidebar.header('Enter dates')
+#
+#today = datetime.date.today()
+#yesterday = today - datetime.timedelta(days=1)
+#ayearago = yesterday - datetime.timedelta(days=365)
+#start_date = st.sidebar.date_input('Start date', ayearago)
+#end_date = st.sidebar.date_input('End date', yesterday)
+#
+#
+#st.write("""### Current symbol:
 	""", symbol)
 
 
