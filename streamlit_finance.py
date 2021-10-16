@@ -1,8 +1,9 @@
 
 import yfinance as yf
 import streamlit as st
+import numpy as np
 import pandas as pd
-from PIL import Image
+#from PIL import Image
 import datetime
 
 
@@ -51,5 +52,5 @@ st.write(ticker_described)
 st.markdown(filedownload(ticker_described), unsafe_allow_html=True)
 
 
-image = Image.open('logo-app2.jpg')
-st.image(image, use_column_width=False, width=400)
+#image = Image.open('logo-app2.jpg')
+#st.image(image, use_column_width=False, width=400)
